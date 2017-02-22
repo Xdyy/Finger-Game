@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Finger Game</title>
+<link rel="stylesheet" type="text/css" href="css/global.css"><!--全局样式表-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"><!--字体样式表-->
+<link rel="stylesheet" type="text/css" href="css/grid.css"><!--栅格化样式表-->
+<link rel="stylesheet" type="text/css" href="css/swiper-3.2.7.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css"><!--自定义样式表-->
+<link rel="stylesheet" type="text/css" href="css/media.css"><!--媒体查询样式表-->
+<script src="js/jquery.min.js"></script><!--JQ库-->
+<script src="js/swiper-3.2.7.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+
+<body>
+	<div class="top">
+    	<div class="container">
+        	<ul class="clearfix">
+            	<li><a href="#">帮助</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">如何使用</a></li>
+            </ul>
+            <div class="search" >
+					<form>
+						<input type="text" value="请输入搜索的内容"><button></button>
+					</form>
+			</div>
+        </div>
+    </div>
+    
+    <div class="header clearfix">
+        <div class="container">
+            <div class="logo"><h1><a href="index.html"><span>G</span>ames <span>C</span>enter</a></h1></div>
+            <div class="nav">
+                <span><img src="images/menu.png" alt=""></span>
+               	<ul>
+                    <li><a href="index.html"  >首页</a></li>
+                    <li><a href="games.html"  >游戏</a></li>
+                    <li><a href="#">评论</a></li>
+                    <li><a href="#" >新闻</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#" >联系</a></li>
+                </ul>
+                <!--script-->
+                <script>
+                    $(".nav span").click(function(){
+						
+                        $(".nav ul").slideToggle('slow', function(){
+							
+						})
+                    })
+                </script>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container newgames clearfix">
+    	<h2> 最新游戏 </h2>
+        <div class="photo clearfix">
+            <ul>
+                <li><img src="images/1.jpg">
+                	<div class="more">
+                        <ul>
+                            <li><h4>Subway Surfers</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                	</div>
+                </li>
+                
+                <li><img src="images/2.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Angry Birds</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                <li><img src="images/3.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Bike Games</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                <li><img src="images/4.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Temple Run</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    <div>
+                </li>
+                
+                <li><img src="images/5.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Car Games</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    <div>
+                </li>
+                
+                <li><img src="images/6.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Fite Games</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    <div>
+                </li>
+                
+                <li><img src="images/2.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Angry Birds</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                <li><img src="images/3.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Bike Games</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                <li><img src="images/4.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Temple Run</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    <div>
+                </li>
+                
+                <li><img src="images/5.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Car Games</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    <div>
+                </li>
+                
+                <li><img src="images/7.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Fite Games</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    <div>
+                </li>
+                
+                <li><img src="images/8.jpg">
+                    <div class="more">
+                        <ul>
+                            <li><h4>Panda Game</h4></li>
+                            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.</p></li>
+                            <li><a href="single.html"><span>查看更多</span></a></li>
+                        </ul>
+                    <div>
+                </li>
+        	</ul>
+        </div>
+        
+        <ul class="pagination">
+            <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2 <span class="sr-only"></span></a></li>
+            <li><a href="#">3 <span class="sr-only"></span></a></li>
+            <li><a href="#">4 <span class="sr-only"></span></a></li>
+            <li><a href="#">5 <span class="sr-only"></span></a></li>
+            <li> <a href="#" aria-label="Next"><span aria-hidden="true">»</span> </a> </li>
+        </ul>
+        
+    </div>
+    
+    <div class="copyrights">
+        <p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates - Collect from</p>
+    </div>
+    
+</body>
+</html>
