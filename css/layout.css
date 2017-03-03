@@ -29,7 +29,7 @@
 
 .newgames{ position:relative;}
 .newgames h2{text-align:center;font-size:2rem;margin:2% 0;}
-.newgames h2:before,.newgames h2:after{ content:'';border-bottom:2px solid #8fbf00;width:45.9%;display:inline-block;}
+.newgames h2:before,.newgames h2:after{ content:'';border-bottom:2px solid #8fbf00;width:31vw;display:inline-block;}
 .photo{}
 .photo ul{}
 .photo>ul>li{float:left;width:236px;margin:2%;}

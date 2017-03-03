@@ -6,7 +6,6 @@
 	.banner-left img{width:106%; height:100%;}
 	.banner-right img{width:93%; height:100%;}
 	
-	.newgames h2:before,.newgames h2:after{width:45%;}
 	
 	.photo>ul>li{width:21%;margin:2%;}
 	.photo li:hover ul{transform:scale(1.4,1.4);}
@@ -22,7 +21,6 @@
 	.nav li a{padding:7% 19px;}
 	.banner-wrap{height:210px;}
 	
-	.newgames h2:before,.newgames h2:after{width:43.4%;}
 	
 	.photo li:hover ul{transform:scale(1.3,1.3);}
 	.more ul{top:-166px;}
@@ -47,7 +45,6 @@
 	.banner{padding:6% 0;}
 	.banner-wrap{height:206px;}
 	
-	.newgames h2:before,.newgames h2:after{width:43.1%;}
 	
 }
 
@@ -55,7 +52,6 @@
 {
 	.banner-wrap{height:193px;}
 	
-	.newgames h2:before,.newgames h2:after{width:42.4%;}
 	
 	.more ul{top:-139px;}
 	.more li p{height:69px;}
@@ -65,7 +61,6 @@
 {
 	.banner-wrap{height:176px;}
 	
-	.newgames h2:before,.newgames h2:after{width:41.1%;}
 	
 	.more li h4{ font-size:1rem;}
 	.more li p{height:69px;}
@@ -79,7 +74,6 @@
 	.banner-left img{width:100%;height:96%;}
 	.banner-right img{width:100%;}
 	
-	.newgames h2:before,.newgames h2:after{width:39.4%;}
 	
 	.photo>ul>li{width:46%;margin:2%;}
 	.photo li:hover ul{transform:scale(1.2,1.2);}
@@ -98,7 +92,6 @@
 	
 	.banner-wrap{height:560px;}
 	
-	.newgames h2:before,.newgames h2:after{width:37.8%;}
 	
 	.photo>ul>li{width:96%;}
 	.photo li:hover ul{transform:scale(.9,.9);}
@@ -113,7 +106,6 @@
 	.nav li{font-size:1.6rem;}
 	.banner-wrap{height:500px;}
 	
-	.newgames h2:before,.newgames h2:after{width:36.5%;}
 	
 	.more ul{top:-336px;}
 	.more li p{font-size:1.7rem;}
@@ -125,7 +117,6 @@
 	.nav li{font-size:1.5rem;}
 	.banner-wrap{height:430px;}
 	
-	.newgames h2:before,.newgames h2:after{width:34.2%;}
 	
 	.more ul{top:-294px;}
 	.more li p{font-size:1.5rem;}
